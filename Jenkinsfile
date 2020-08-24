@@ -4,7 +4,7 @@ node {
   def uploadSpec = """{
     "files": [{
                 "pattern": "hello.txt",
-                "target": "my_artifacts"
+                "target": "my_artifacts/"
             }
         ]
     }"""
